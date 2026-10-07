@@ -1,0 +1,100 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #7b7b7b;
+    line-height: 1.65;
+    background: #fff;
+}
+
+.menu {
+    background: #f6f8fa;
+    border-bottom: 1px solid #e3e8ee;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 8%;
+    gap: 6px;
+}
+
+.menu li a {
+    display: block;
+    padding: 16px 18px;
+    color: #1a6fe0;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.menu li a:hover {
+    background: #e6effc;
+}
+
+.contenido {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 28px 22px 64px;
+}
+
+.contenido h1 {
+    margin: 0 0 14px;
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: #53708c;
+}
+
+.presentacion {
+    font-size: .82rem;
+    margin: 0 0 42px;
+}
+
+.bloques {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px 56px;
+}
+
+.bloque {
+    flex: 1 1 calc(50% - 56px);
+    min-width: 260px;
+    display: flex;
+    gap: 16px;
+}
+
+.bloque img {
+    flex: 0 0 46px;
+    width: 46px;
+    height: 46px;
+}
+
+.bloque h2 {
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: #53708c;
+}
+
+.bloque p {
+    margin: 0 0 18px;
+    font-size: .8rem;
+}
+
+.boton {
+    display: inline-block;
+    background: #2d6a9f;
+    color: #fff;
+    text-decoration: none;
+    font-size: .8rem;
+    padding: 10px 24px;
+    border-radius: 2px;
+}
+
+.boton:hover {
+    background: #1f4f78;
+}

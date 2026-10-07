@@ -1,0 +1,80 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background: #f1f2fa;
+    color: #3a3a4a;
+}
+
+.encabezado {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 42px 12px 28px;
+    letter-spacing: .5px;
+}
+
+.vitrina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px 22px;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0 16px 56px;
+}
+
+.modelo {
+    flex: 0 1 calc(33.333% - 22px);
+    min-width: 200px;
+    margin: 0;
+    text-align: center;
+}
+
+.modelo img {
+    display: block;
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .18);
+    margin-bottom: 9px;
+    transition: filter .25s;
+}
+
+.modelo img:hover {
+    filter: brightness(1.12);
+}
+
+.modelo figcaption {
+    font-size: .85rem;
+}
+
+.proximamente .cuadro {
+    height: 160px;
+    background: #e9ebf5;
+    border: 1px solid #dcdff0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+
+.proximamente .cuadro img {
+    width: 62px;
+    height: 62px;
+    padding: 14px;
+    background: #4a4de0;
+    border-radius: 16px;
+    box-shadow: none;
+}
+
+.proximamente figcaption {
+    color: #9a9aa8;
+}
